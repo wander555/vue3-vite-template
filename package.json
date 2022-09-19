@@ -2,7 +2,7 @@
   "name": "vue3-vite-template",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite --port 5419",
+    "dev": "vite --port 5419 --host 0.0.0.0",
     "build": "vite build"
   },
   "dependencies": {
