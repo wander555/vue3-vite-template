@@ -15,6 +15,7 @@ import {
   List,
   NavBar,
   Area,
+  PullRefresh,
 } from "vant";
 import App from "./App.vue";
 import router from "./router";
@@ -43,4 +44,5 @@ createApp(App)
   .use(List)
   .use(NavBar)
   .use(Area)
+  .use(PullRefresh)
   .mount("#app");

@@ -3,7 +3,7 @@
     <van-form @failed="onFailed" @submit="onSubmit">
       <van-cell-group inset>
         <!-- 1、单选框 -->
-        <van-field name="radio" label="单选框" required="true">
+        <van-field name="radio" label="单选框">
           <template #input>
             <van-radio-group v-model="checked" direction="horizontal">
               <van-radio name="1">单选框 1</van-radio>
