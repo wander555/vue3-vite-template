@@ -165,21 +165,21 @@ export default {
 
     const onShowPicker = () => {
       request({
-        url: "/generalTransferPlan/getGeneralTransferPlanDetailList.do",
+        url: "/savAuntInfo",
         data: {
           firstName: "Fred",
           lastName: "Flintstone",
         },
         method: "post",
       }).then((res) => {
-        columns.value = res;
+        columns.value = res.data;
         showPicker.value = true;
       });
     };
 
     const customColumnsName = {
-      text: "generalWasteName",
-      value: "id",
+      text: "NAME",
+      value: "ID",
     };
 
     //表单验证失败提示

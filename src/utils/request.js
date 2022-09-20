@@ -1,5 +1,5 @@
 import axios from "axios";
-let baseURL = "/api";
+let baseURL = "http://192.168.102.202:5601/api";
 const service = axios.create({
   baseURL,
   timeout: 5000, // request timeout
